@@ -90,11 +90,11 @@ module.exports = {
     dest: dest
   },
 
-  //
-  jade: {
+  // jade(pug)
+  pug: {
     src: [
-      src + '/www/**/*.jade',
-      '!' + src + '/www/**/_*.jade'
+      src + '/www/**/*.pug',
+      '!' + src + '/www/**/_*.pug'
     ],
     dest: dest
   },
@@ -105,7 +105,7 @@ module.exports = {
     // js: relativeSrcPath   + '/js/**',
     // styl: relativeSrcPath + '/styl/**',
     www: relativeSrcPath  + '/www/**/*.html',
-    jade: relativeSrcPath + '/www/**/*.jade'
+    pug: relativeSrcPath + '/www/**/*.pug'
   }
 
 }

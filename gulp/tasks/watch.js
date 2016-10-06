@@ -19,8 +19,8 @@ gulp.task('watch', function () {
         gulp.start(['copy']);
     });
     // jade
-    watch(config.jade, function () {
-        gulp.start(['jade']);
+    watch(config.pug, function () {
+        gulp.start(['pug']);
     });
 
 });

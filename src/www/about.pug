@@ -1,4 +1,7 @@
 extends mod/_layout
+block vars
+  - var activePage = "About"
+
 block title
   title crab hermit
 block meta
@@ -11,7 +14,7 @@ block body
       li webpack
       li babel
       li brawser-sync
-      li jade
+      li pug(jade)
       li stylus
       li jQuery
       li bootstrap

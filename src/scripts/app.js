@@ -13,6 +13,5 @@ import '../styl/app.styl'
 
 //INIT
 {
-  console.log('hello');
-  $('.load-mask').remove();
+  $('.loaderMask').remove();
 }
