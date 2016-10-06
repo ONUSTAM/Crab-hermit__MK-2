@@ -12,12 +12,14 @@
 - lodash
 - bootstrap
 
+## setting
+npm, gulp, bower
+```
+$ npm install
+$ bower install
+```
 ## start
 
 ```
-  $ npm install
-```
-
-```
-  $ gulp
+$ gulp
 ```
