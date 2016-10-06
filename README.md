@@ -1,13 +1,14 @@
 # Crab-hermit__MK-2
 
 ## plugins
-
+- npm
+- bower
 - gulp
 - webpack
 - babel
 - jade
 - stylus
-- browser-scync
+- brawser-scync
 - jQuery
 - lodash
 - bootstrap
@@ -16,6 +17,7 @@
 
 ```
   $ npm install
+  $ bower install
 ```
 
 ```
